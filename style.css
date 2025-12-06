@@ -119,3 +119,21 @@ body {
   font-weight: 600;
   margin-top: 4px;
 }
+
+@media (max-width: 480px) {
+  body {
+    padding: 12px;
+  }
+
+  .app-container {
+    padding: 18px;
+  }
+
+  .temperature {
+    font-size: 50px;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+}
