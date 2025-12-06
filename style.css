@@ -66,3 +66,30 @@ body {
 .search-box button:hover {
   background: #7dd3fc;
 }
+
+.weather-main {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.location-name {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.weather-description {
+  margin-top: 6px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.weather-icon {
+  width: 100px;
+  margin: 10px auto;
+}
