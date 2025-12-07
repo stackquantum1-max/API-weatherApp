@@ -30,7 +30,7 @@ Open `index.html` in your browser and start searching for your favorite cities!
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/stackquantum1-max/API-weatherApp.git
 cd weather-app
 
 ```
