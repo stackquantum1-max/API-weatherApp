@@ -56,7 +56,7 @@ body {
 }
 
 .search-input::placeholder {
-  color: #ddd;
+  color: #f0ebeb;
 }
 
 .search-btn {
