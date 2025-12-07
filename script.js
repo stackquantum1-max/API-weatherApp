@@ -13,7 +13,7 @@ const windText = document.querySelector("[data-wind]");
 const errorMessage = document.querySelector("[data-error]");
 
 
-const API_KEY = "cb0648fbab6b427e923c4bde88ebac8f"; // replace with your OpenWeatherMap API key
+const API_KEY = "Your-Key"; // replace with your OpenWeatherMap API key
 
 async function getWeather(city) {
   if (!city) {
