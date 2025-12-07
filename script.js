@@ -18,7 +18,8 @@ const errorMessage = document.querySelector("[data-error]");
 // =======================
 // 2️⃣ FUNCTIONS
 // =======================
-const API_KEY = "cb0648fbab6b427e923c4bde88ebac8f"; // replace with your OpenWeatherMap API key
+
+const API_KEY = "YOUR-API-KEY"; // replace with your OpenWeatherMap API key
 
 async function getWeather(city) {
   if (!city) {
