@@ -1,6 +1,3 @@
-// =======================
-// 1️⃣ DOM SELECTORS
-// =======================
 const searchInput = document.querySelector("[data-search-input]");
 const searchBtn = document.querySelector("[data-search-btn]");
 
@@ -15,11 +12,8 @@ const humidityText = document.querySelector("[data-humidity]");
 const windText = document.querySelector("[data-wind]");
 const errorMessage = document.querySelector("[data-error]");
 
-// =======================
-// 2️⃣ FUNCTIONS
-// =======================
 
-const API_KEY = "YOUR-API-KEY"; // replace with your OpenWeatherMap API key
+const API_KEY = "cb0648fbab6b427e923c4bde88ebac8f"; // replace with your OpenWeatherMap API key
 
 async function getWeather(city) {
   if (!city) {
@@ -70,9 +64,7 @@ function showError(message) {
   extraInfoSection.hidden = true;
 }
 
-// =======================
-// 3️⃣ EVENT LISTENERS
-// =======================
+// EVENT LISTENERS
 searchBtn.addEventListener("click", () => {
   getWeather(searchInput.value.trim());
 });
